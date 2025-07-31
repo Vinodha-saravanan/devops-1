@@ -1,17 +1,19 @@
-import java.util.Scanner;
+# 🌦 Climate Prediction Analysis System
 
-public class LargestOfThree {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter 3 numbers: ");
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
+This is a basic Java console-based application that analyzes environmental parameters such as **temperature**, **humidity**, and **rainfall** to predict potential climate conditions like *Hot and Dry*, *Humid and Rainy*, *Cold and Moist*, etc.
 
-        int max = a;
-        if (b > max) max = b;
-        if (c > max) max = c;
+## 🔧 Features
 
-        System.out.println("Largest number is: " + max);
-    }
-}
+- Accepts user input for:
+  - Average Temperature (°C)
+  - Average Humidity (%)
+  - Average Rainfall (mm)
+- Uses rule-based logic to predict climate conditions
+- Easy to run on any system with Java installed
+
+## 🖥️ Technologies Used
+
+- Java (JDK 8 or higher)
+- Console-based UI (Scanner class)
+- Simple conditional logic (if-else)
+
